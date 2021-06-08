@@ -3,10 +3,30 @@
 <head>
     <title>Kolokwium</title>
     <script src="https://unpkg.com/vue"></script>
+    <style>
+        .cell
+        {
+            width:50px;
+            height:50px;
+            background-color: orange;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
-    {{ message }}
+
+        {{ message }}
+  
+    </div>
+
+    <div class=cell>
+        1
     </div>
 
     <script>
